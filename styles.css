@@ -48,6 +48,7 @@ align-items: center;
  .menu.navbar ul li  {
     position: relative;
     float: left;
+    padding-left: 80px;
 
 
 }
