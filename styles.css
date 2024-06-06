@@ -48,7 +48,8 @@ align-items: center;
  .menu.navbar ul li  {
     position: relative;
     float: left;
-    padding-left: 80px;
+    padding-left: 60px;
+    
 
 
 }
@@ -117,4 +118,26 @@ align-items: center;
     padding: 0 250px;
     margin-bottom: 35px;
 }
+.txt-p{
+    font-size: 16px;
+    color: #323337;
+    padding:  0 250px;
+    margin-bottom: 35px;
+}
+.coffe-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.coffe-1 img {
+    width: 200px;
+
+}
+.coffee-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
  
