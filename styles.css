@@ -50,8 +50,6 @@ align-items: center;
     float: left;
     padding-left: 60px;
     
-
-
 }
  .menu.navbar ul li a {
     font-size: 18px;
@@ -107,8 +105,11 @@ align-items: center;
 }
 .coffe{
     padding: 100px 0;
-    background-color: azure;
+    background-color: #0f37d5;
     position: relative;
+}
+.coffe-content{
+    text-align: center;
 }
 .coffe-content h2 {
     font-size:55px ;
@@ -116,7 +117,7 @@ align-items: center;
     color: #323337;
     text-transform: uppercase;
     padding: 0 250px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .txt-p{
     font-size: 16px;
@@ -129,6 +130,9 @@ align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
 }
+.coffee-1 {
+    padding: 0 25px;
+}
 .coffe-1 img {
     width: 200px;
 
@@ -139,5 +143,58 @@ align-items: center;
     right: 0;
 
 }
+.coffe-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.servicios{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7 ),
+        rgba(0,0,0,0.7 )),
+        url(images/th.jpg);
+        background-position:center center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px;
+
+    
+}
+.servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform:uppercase ;
+    margin-bottom: 50px;
+
+}
+.servicios-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+.servicios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.servicios-1 {
+    padding: 0 100;
+}
+.servicios-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+
+}
+.servicios-1 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+
+}
+
 
  
